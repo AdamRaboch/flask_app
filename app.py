@@ -34,7 +34,7 @@ def webhook():
 
 
        # Save the filtered data to a JSON file
-       with open('/opt/simpleFlask/webhook_data.json', 'w') as f:
+       with open('/opt/flask_app/webhook_data.json', 'w') as f:
            json.dump(filtered_data, f, indent=4)
 
 
